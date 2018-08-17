@@ -1,0 +1,32 @@
+
+// himno nacional d.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main()
+{
+	cout<< "himno nacional del estado plurinacional de bolivia"<<endl;
+	cout<< "bolivianos: el hado propocio"<<endl;
+	cout<< "corono nuestros votos y anhelo"<<endl;
+	cout<< "es ya libre, es ya libre este suelo" <<endl;
+	cout<< "ya ceso su servil condicion"<< endl;
+	cout<< "al estruendo marcial que ayer fuera"<< endl;
+	cout<< "y al clamor de la guerra horroso"<< endl;
+	getch();
+}
+
+Proceso holamundo
+	Escribir "himno nacional de bolivia";
+	Escribir "bolivianos: el hado propicio"
+	Escribir  "corono nuestros votos de anhelo"
+	Escribir  "es ya libre, es ya libre este suelo"
+	Escribir  "ya ceso su servil condicion"
+	Escribir  "al estrueno marcial que ayer fuera"
+	Escribir  "y al clamor de la guerra horroroso"
+	Escribir  "siguen hoy, en contraste armonioso"
+FinProceso
+
