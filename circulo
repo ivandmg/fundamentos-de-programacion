@@ -1,0 +1,29 @@
+// circulo.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+{
+	float r, pi=3.1416, area;
+	cout<<"calcula el area del circulo"<<endl;
+	cout<<"radio:";
+	cin>>r;
+	area=pi*r*r;
+	cout<<"area"<<area;
+
+
+	getch();
+}
+
+
+Proceso areadelcirculo
+	Escribir  "calcula el area del circulo"
+	Leer r
+	
+	a<-r*r*3.1416
+	Escribir  a
+	
+FinProceso
