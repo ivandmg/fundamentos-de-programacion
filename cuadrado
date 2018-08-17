@@ -1,0 +1,28 @@
+// cuadrado0.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	float L,area;
+	cout<< "calcular el area del cuadrado"<<endl;
+	cout<< "lado";
+	cin>>L;
+	cout<< "lado2";
+	cin>>L;
+	area=L*L;
+	cout<< "area"<<area;
+	getch();
+}
+
+Proceso calculaelareadeuntriangulo
+	Escribir "calcula el area de un triangulo"
+	Leer  L,l
+	a<-L*l
+	Escribir a
+FinProceso
