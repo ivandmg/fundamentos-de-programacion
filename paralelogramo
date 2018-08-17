@@ -1,0 +1,32 @@
+
+// paralelogramo0.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	float b,h,area;
+	cout<< "calcular el area del paralelogramo"<<endl;
+	cout<< "altura";
+	cin>>b;
+	cout<< "base";
+	cin>>h;
+	area=h*b;
+	cout<< "area"<<area;
+	getch();
+}
+
+
+Proceso areadelcirculo
+	Escribir  "calcula el area del paralelogramo"
+	Leer b,h
+	
+	a<-b*h
+	Escribir  a
+	
+FinProceso
