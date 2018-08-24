@@ -1,0 +1,35 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+	void main()
+
+{
+	float A,B,aux;
+	cout<<"ingrese el valor de A";
+	cin>>A;
+	cout<<"ingrese el valor de B:";
+	cin>>B;
+	aux=A;
+	A=B;
+	B=aux;
+	cout<<"ahora el valor de A es:"<<A<<endl;
+	cout<<"ahora el valor de B es:"<<B;
+	getch();
+	
+}
+
+
+
+
+Proceso sin_titulo
+	Leer A
+	Leer B
+	aux<-A
+	A<-B
+	B<-aux
+	Escribir "el valor de a es:",A
+	Escribir "el valor de b es:",B
+FinProceso
