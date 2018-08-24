@@ -1,0 +1,32 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+	void main()
+
+{
+	float r,pi=3.1415;
+		double p,a;
+		cout<<"ingrese el radiod el circulo";
+		cin>>r;
+		p=2*pi*r;
+		a=r*r*pi;
+		cout<<"el perimetro del circulo sera:"<<p<<endl;
+cout<<"el area del circulo sera:"<<a;
+getch();
+	}
+  
+  
+  
+  Proceso areayperimetodelcirculo
+	escribir "escriba el radio del circulo"
+	Leer r
+	area<-r*r*3.1415
+	perimetro<-r*2*3.1415
+	escribir "el area sera:"
+	escribir area
+	escribir "el perimtro sera:"
+	escribir perimetro
+FinProceso
+
