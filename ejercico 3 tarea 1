@@ -1,0 +1,53 @@
+// trabajos visual.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+	void main()
+
+{
+   float a, prom=0;
+   cout<<"ingre el primer valor:";
+   cin>>a;
+   prom=prom+a;
+   cout<<"ingre el segundo valor:";
+   cin>>a;
+   prom=prom+a;
+   cout<<"ingre el tercer valor:";
+   cin>>a;
+   prom=prom+a;
+   cout<<"ingre el cuarto valor:";
+   cin>>a;
+   prom=prom+a;
+   cout<<"ingre el quinto valor:";
+   cin>>a;
+   prom=prom+a;
+   cout<<"el promedio seraa"<<prom/5;
+
+   getch();
+}
+
+Proceso elpromediodecincovaariables
+	escribir "ingrese el primer valor";
+	Leer a;
+	prom<-prom+a
+	escribir "ingrese el segundoi valor";
+	Leer a;
+	prom<-prom+a
+	escribir "ingrese el tercer valor";
+	Leer a;
+	prom<-prom+a
+	escribir "ingrese el cuarto valor";
+	Leer a;
+	prom<-prom+a
+	escribir "ingrese el quinto valor";
+	Leer a;
+	prom<-prom+a
+	Escribir "el promedio sera:",prom/5;
+	
+	
+FinProceso
+
