@@ -1,0 +1,77 @@
+#include "stdafx.h"
+#include <iostream>
+#include"conio.h"
+#include "math.h"
+ using namespace std;
+ void main()
+
+{ 
+	float p1,p2,p3,p4,p5,p6, porc1, porc2,porc3, porc4,porct,t1,n;
+	cout<<"ingrese la cantidad de productos que va a llevar"<<endl;
+	cin>>n;
+	cout<<"ingrese el precio del primer producto:";
+	cin>>p1;
+	cout<<"ingrese el precio del segundo producto:";
+	cin>>p2;
+	cout<<"ingrese el precio del tercer producto:";
+	cin>>p3;
+	cout<<"ingrese el precio del cuarto producto:";
+	cin>>p4;
+	cout<<"ingrese el precio del quinto producto:";
+	cin>>p5;
+	cout<<"ingrese el precio del sexto producto:";
+	cin>>p6;
+	if (n<=3)
+	{
+	
+
+	porc1=p1*0.70;
+	porc2=p2*0.80;
+	porc3=p3*0.90;
+	porct=porc1+porc2+porc3;
+	cout<<"con el descuento el primer producto sera:"<<porc1<<endl;
+	cout<<"con el descuento el segundo producto sera:"<<porc2<<endl;
+	cout<<"con el descuento el tercer producto sera:"<<porc3<<endl;
+	cout<<"total de:"<<porct<<endl;
+	}
+	
+	else (n>=4);
+	{
+	
+	t1=(p1+p2+p3+p4+p5+p6)*0.80;
+	cout<<"el total con el descuento sera:"<<t1;
+	}
+	getch();
+}
+
+
+
+Proceso sin_titulo
+	definir n,p1,p2,p3,p4,p5,p6,t1,por1,por2,por3 como real
+	Escribir "ingrese la cantidad de productos que esta llevando"
+	Escribir "se puede llevar una cantidad maxima de 6 productos"
+	Leer n
+	Si n<=3 Entonces
+		Leer p1,p2,p3
+		por1=p1*0.70
+		por2=p2*0.80
+		por3=p3*0.90
+		t1=por1+por2+por3
+		Escribir t1
+	Sino
+		Leer p1,p2,p3,p4,p5,p6
+		t1=(p1+p2+p3+p4+p5+p6)*0.80
+		Escribir t1
+	FinSi
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+
