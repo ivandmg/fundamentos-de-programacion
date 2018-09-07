@@ -1,0 +1,59 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+void manin()
+{
+	int numcamisas;
+	float preciototal, totalapagarcondescuento;
+	//validar la entrada
+	do {
+		cout<<"ingresar numero de camisas";
+		cin>>numcamisas;
+	} while (numcamisas<0);  //  !(numcamisas>=0)
+	do { 
+		cout<<"ingrese el precio de la camisa:";
+		cin>>preciototal;
+	} while (preciototal<=0);
+	//determinar el descuento
+	if (numcamisas<=5)
+	
+		totalapagarcondescuento=numcamisas*preciototal*0.7;
+
+	  else 
+		  totalapagarcondescuento=numcamisas*preciototal*0.80;
+	cout<<"total a pagar con descuetno:"<<totalapagarcondescuento;
+  
+  
+  #include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+void manin()
+{
+	int numb;
+	float preciototal, totalapagarproducto;
+	//validar la entrada
+	do {
+		cout<<"ingrese el precio";
+		cin>>preciototal;
+	} while (preciototal>=0);  
+	//determinar el descuetno
+	if (numb==2)
+	{ cout<<"el precio total es:"<<preciototal;
+	}
+	else 
+		if (numb==4)
+			cout<<"el precio total:"<<preciototal*0.95;
+		else 
+			if (numb==6)
+				cout<<"precio total:"<<preciototal*0.80;
+			else 
+				if (numb==8)
+					cout<<"el precio es:"<<preciototal*0.50;
+				else 
+					cout<<"error bolita no cosiderada";
+	getch();
+}
