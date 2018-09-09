@@ -1,0 +1,36 @@
+// examen.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "conio.h"
+#include "math.h"
+#include <iostream>
+using namespace std;
+void main()
+{
+   float p,b,d1,d2,d3,d4;
+   cout<<"ingrese el valor de la compra";
+   cin>>p;
+   cout<<"ingrese el numero de bolita:";
+   cin>>b;
+   if (b==3)
+ {   d1=p;
+	cout<<"el precio con el descuento sera:"<<d1;
+}
+   else (b==5);
+	{d2=p*0.95;
+     cout<<"el precio con el descuento sera:"<<d2;
+   }
+
+	if (b==7)
+ {   d3=p*0.80;
+	cout<<"el precio con el descuento sera:"<<d3;
+}
+   else (b==9);
+	{d4=p*0.50;
+     cout<<"el precio con el descuento sera:"<<d4;
+   }
+  getch();
+}
+
+    
