@@ -1,0 +1,30 @@
+#include "stdafx.h"
+#include "conio.h"
+#include "math.h"
+#include <iostream>
+using namespace std;
+void main()
+{
+	float a,b,num,s;
+	cout<<"ingrese el primer numero:";
+	cin>>a;
+	cout<<"ingrese el segundo numero:";
+	cin>>b;
+	s=0;
+	if (a>b)
+ {     num=a;
+	while (num<=b)
+		s=s+num;
+	num=num-1;
+}
+	else (b>a);
+	{	num=b;
+	while (num>=a)
+		s=s+num;
+	num=num-1;
+	}
+	 cout<<"el resultado es:"<<s;
+	  getch();
+}
+
+
