@@ -1,0 +1,26 @@
+// Cuadrado while.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+{
+	float l, A, n;
+	cout<<"Calcula el area de un triangulo"<<endl;
+	while (n!=999)
+	{
+		cout<<"Ingrese los lados: "<<endl;
+		cin>>l;
+		cin>>l;
+		A=l*l;
+		cout<<"El Area es: "<<A<<endl;
+	cout<<"si presiona 999 se cierra el programa:";
+	cin>>n;
+
+	}
+	getch();
+}
