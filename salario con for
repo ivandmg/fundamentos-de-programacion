@@ -1,0 +1,33 @@
+// Salario con While.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+{
+	float n, sb, sn, sm, i;
+	cout<<"Escribir el numero de empleados: ";
+	cin>>n;
+	for (i=1; i<=n; i++;)
+	{
+		cout<<"Ingrese el salario: ";
+		cin>>sb;
+		sm=2060;
+		if (sb>=4*sm)
+		{
+			sn=sb-0.251*sb;
+		}
+		else 
+		{
+			sn=sb-0.121*sb;
+		}
+		cout<<"El salario neto es: "<<sn<<endl;
+	}
+	getch();	
+
+}
+
