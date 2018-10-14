@@ -1,0 +1,26 @@
+// punto2.cpp : Defines the entry point for the console application.
+//
+#include "stdafx.h"
+#include <iostream>    
+#include "conio.h"  
+#include "math.h"
+using namespace std;
+int fact(int n);
+void main()
+{
+	int n,r;
+	cout<<"ingrese el numreo factorial,";
+	cin>>n;
+
+	r=fact(n);
+	cout<<"el factorial es:"<<r;
+	getch();	
+}
+int fact(int n){
+	int r=1;
+	   for(int i=1;i<=n;i++){
+		   r=r*i;
+  
+		   return r;
+	   }
+      
