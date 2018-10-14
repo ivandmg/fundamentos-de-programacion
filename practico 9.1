@@ -1,0 +1,26 @@
+// ejercicio1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>    
+#include "conio.h"  
+#include "math.h"
+using namespace std;             //declarar variables
+int  poten (float x, int y);
+void main()
+{
+	int x,y,s;
+	cout<<"ingrese x";
+	cin>>x;
+	cout<<"ingrese y:";
+	cin>>y;
+	s=poten(x,y);
+	cout<<s<<endl;
+	getch();
+	
+}
+ int  poten (float x, int y){
+	 double s;
+	s=pow(x,y);
+	 return s;
+	 }
