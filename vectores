@@ -1,0 +1,77 @@
+// vectores.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#define MAX 100
+using namespace std;
+
+void cargar(int vec[],int tam);
+void ordenar (int vec[],int tam);
+void mostrar(int vec[],int tam);
+
+void main()
+{
+	int n,vec[MAX],opcion;
+	do
+{
+	cout<<"ingrese el numero de elementos"<<"maximo 100";             //¬.¬
+                                                                      // _   enojau
+	cin>>n;
+
+}while ((n>MAX) || (n<=0));
+cout<<endl;
+cout<<"_____meni____"<<endl;
+cout<<"1.cargar vec"<<endl;
+cout<<"2.ordenar"<<endl;
+cout<<"3.mostrar vec"<<endl;
+cout<<"4.salir"<<endl;
+cout<<"opcion";
+cin>>opcion;
+
+switch(opcion){
+case 1: cargar(vec,n); break;
+case 2: ordenar (vec,n);break;
+case 3: mostrar (vec,n);break;
+case 4:cout<<"salir";
+default : "errorr loco";
+}
+while (opcion!=1);
+getch();
+}
+
+void cargar(int vec[],int tam)
+{
+	for(int i=0;i<tam;i++)
+	{
+		
+		cout<< "Ingrese el valor para vec["<< i << "]=";
+		cin>> vec[i];
+	}
+}
+void ordenar(int vec[],int tam)
+{
+	int aux,m;
+	for (int i=0;i<tam-1;i++)
+	{
+		for(int j=i+1;j<tam;j++)
+		{
+			if(vec[i]>vec[j]) 
+			{
+				aux=vec[j];
+				vec[j]=vec[i];
+				vec[i]=aux;
+			}
+		}
+	}
+}
+
+void mostrar(int vec[],int tam)
+{   
+	for(int i=0;i<tam;i++)
+	{
+		cout<< "vec["<< i << "]=";
+		cout<< vec[i]<<endl;
+	}
+}
