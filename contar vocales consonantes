@@ -1,0 +1,35 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include <string>
+
+using namespace std;
+void vocales (string frase);
+void main()
+{
+	string frase;
+	cout<<"ingrese la frae"<<endl;
+	getline(cin,frase);
+	vocales(frase);
+	getch();
+}
+void vocales (string frase){
+	int p,v=0,c=0,palabra=0;
+	cout<<"tiene"<<frase.length()<<"espacios"<<endl;
+	p=frase.length();
+	for(int i=0;i<p;i++){
+		if (frase[i]=='a'|| frase[i]=='e'|| frase[i]=='i'|| frase[i]=='o'|| frase[i]=='u'){
+			v++;
+		}
+		else 
+			c++;
+
+		if (frase[i]==' '){
+			palabra++;
+		}
+	}
+	cout<<"tiene"<<v<<"vocales"<<endl;
+	cout<<"tiene"<<c-palabra<<"consonantes"<<endl;
+	cout<<"tiene"<<palabra+1<<"palabras"<<endl;
+	
+}
