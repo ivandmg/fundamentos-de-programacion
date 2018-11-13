@@ -1,0 +1,35 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#define MAX 100
+
+using namespace std;
+void cargar(int tam, int v[]);
+int suma (int tam,int v[]);
+void main()
+{
+	int v[MAX],tam,r;
+	cout<<"ingrese el tamaño de la basura";
+	cin>>tam;
+	cargar(tam,v);
+	r=suma(tam,v);
+	cout<<r;
+	
+	getch();
+}
+void cargar(int tam, int v[]){
+	for(int i=0;i<tam;i++){
+		cin>>v[i];
+	}
+}
+int suma (int tam,int v[]){
+	int s=0;
+	for(int i=0;i<tam;i++){
+		if(v[i]%2==0){
+			s=s+v[i];
+		}
+	}
+	return s;
+}
+
+	
