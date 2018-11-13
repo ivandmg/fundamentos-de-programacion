@@ -1,0 +1,50 @@
+#include "stdafx.h"
+#include <iostream>
+#include"conio.h"
+#define MAX 100
+using namespace std;
+void cargar (int tam, int v[]);
+int partidario (int tam,int v[]);
+void main(){
+	int tam,v[MAX],r;
+	cout<<"ingrese el tamaño del vector";
+	cin>>tam;
+	cargar(tam,v);
+	r=partidario(tam,v);
+	if (r==1)
+	{
+		cout<<"es partidario";
+	}if(r==0){
+		cout<<"no es partidario";}
+
+	getch();
+}
+void cargar (int tam, int v[]){
+	for(int i=0;i<tam;i++){
+		cin>>v[i];
+	}
+}
+int partidario (int tam,int v[]){
+	int j=0;
+	for(int i=0;i<tam-1;i++)
+	{
+		if(i%2==0)
+		{
+		if(v[i]>v[i+1])
+		{  j++;
+		
+		}
+		}
+
+	}
+	if(j==tam/2)
+
+	{
+
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}}
