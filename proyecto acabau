@@ -1,0 +1,161 @@
+void comerciales(int op, int edad){
+			cout<<"----------comerciales-----------"<<endl;
+		cout<<"1.centro comercial norte"<<endl;
+		cout<<"2.brisas"<<endl;
+		cout<<"3.mall ventura"<<endl;
+		cout<<"4.shopping bolivar"<<endl;
+		cout<<"5.casco viejo"<<endl;
+		cout<<"0.Salir"<<endl;
+		cout<<endl;
+		cout<<"¿Que opcion desea?"<<endl;
+		cin>>op;
+
+		switch(op)
+		{
+		case 1: 
+			cout<<"Direcciones: ";
+			cout<<"3er anillo (interno o externo) entre mutualista y alemana "<<endl;
+			cout<<"que compras se puede hacer: ";
+			cout<<"es un centro comercial de todo tipo donde se puede comprar ropa,"<<endl;
+			cout<<"tambien hay peluqerias y tecnicos para telefonos; es muy variado"<<endl;
+			cout<<"horarios de atencion:";
+			cout<<"lunes a sabado 10:00-22:00";
+			cout<<"domingo de 11:00-20";
+			break;
+		case 2: cout<<"direcciones: ";
+			cout<<"ubicado en el 4to anillo y avenida banzer "<<endl;
+			cout<<"exactamente en la interseccion de ambas avenidas (edificio grande)"<<endl;
+			cout<<"que se pude hacer ahi: ";
+			cout<<"hay bastantes tiendas de ropa, se puede ver ropa muy elegante, tambien "<<endl;
+			cout<<"hay un cine y un patio de comida"<<endl;
+			cout<<"horarios de antencio: ";
+			cout<<"de lunes a sabado 10:00-22:00"<<endl;
+			cout<<"domingo 11:00-22:00";
+			break;
+		case 3: cout<<"direcciones: ";
+			cout<<"ubicado en en 4to anillo a media cuadra de la avenida san martin"<<endl;
+			cout<<" casi en la esquina"<<endl;
+			cout<<"que se pude hacer ahi: ";
+			cout<<"hay bastantes tiendas de ropa, se puede ver ropa muy elegante, tambien "<<endl;
+			cout<<"hay un cine y un patio de comida"<<endl;
+			cout<<"horarios de antencio: ";
+			cout<<"de lunes a sabado 10:00-22:00"<<endl;
+			cout<<"domingo 11:00-22:00";
+			break;
+		case 4: cout<<"direcciones: ";
+			 cout<<"ubicado en el centro de la ciudad al frente de la plaza 24 de septiembre"<<endl;
+			 cout<<"entre las calles rene moreno,sucre y bolivar"<<endl;
+			 cout<<"que se puede hacer ahi: ";
+			 cout<<"es un centro para arreglos de telefonos, venta de celulares,"<<endl;
+			 cout<<"es un comercial de puros softwares"<<endl;
+			 cout<<"horarios de atencion: ";
+			 cout<<"lunes a sabado 8:00-19:30";
+	         break;
+		case 5: cout<<"direcciones: ";
+			cout<<"a media cuadra de la plaza principal entrando por "<<endl;
+			cout<<"la cuadra junin"<<endl;
+			cout<<"que se pude hacer: ";
+			cout<<"es un comercial de videojuegos"<<endl;
+			break;
+		case 0: cout<<"salir";
+			break;
+		default: cout<<"error";
+		}
+		}
+		void boliches(int op, int edad){
+			cout<<"----------boliches-----------"<<endl;
+		cout<<"1.panorama"<<endl;
+		cout<<"2.mentos"<<endl;
+		cout<<"3.pallet"<<endl;
+		cout<<"4.mandala"<<endl;
+		cout<<"0.Salir"<<endl;
+		cout<<endl;
+		cout<<"¿Que opcion desea?"<<endl;
+		cin>>op;
+
+		switch(op)
+		{
+		case 1: cout<<"Direcciones: ";
+			cout<<"queda en el centro en la calle velasco e ingavi"<<endl;
+			cout<<"que se pude hacer: ";
+			cout<<"es una discoteca de jovenes donde se puede ir a bailar "<<endl;
+			cout<<"y tomar unos tragos entre amigos y pasarla bien"<<endl;
+			cout<<"horarios de atencion: ";
+			cout<<"viernes y sabado de 21:00-3:00"<<endl;
+			cout<<"jueves de 20:00-2:00";
+			break;
+		case 2:cout<<"direcciones: ";
+			cout<<"queda en la calle rene moreno media cuadra antes de la sucre"<<endl;
+			cout<<"que se ouede hacer ahi: ";
+			cout<<"es un boliche mas traquilo para ir y sentarse entre amigos y tomar unos tragos"<<endl;
+			cout<<"y shishear en caso de que le guste"<<endl;
+			cout<<"horarios de atencion: ";
+			cout<<"miercoles y jueves : 19:00-2:00"<<endl;
+			cout<<"viernes y sabado: 20:00-3:00"<<endl;
+			break;
+		case 3: cout<<"direcciones: ",
+					cout<<"queda en el centro en la republiquetas y chuquisaca"<<endl;
+			cout<<" que se puede hacer: ";
+			cout<<"es una discoteca de jovenes donde se puede ir a bailar "<<endl;
+			cout<<"y tomar unos tragos entre amigos y pasarla bien"<<endl;
+			cout<<"horarios de atencion: ";
+			cout<<"viernes y sabado de 21:00-3:00"<<endl;
+			cout<<"jueves de 20:00-2:00";
+			break;
+		case 4: cout<<"direcciones: ";
+			cout<<"queda 3er anillo externo canal isuto"<<endl;
+			cout<<"que se puede hacer: ";
+			cout<<"se puede bailar tomar tragos entre amigos"<<endl;
+			cout<<"horarios de atencion: ";
+			cout<<"viernes y sabado: 20:00-3:00"<<endl;
+			break;
+		case 0: cout<<"salir"; break;
+		default: cout<<"error";
+		}
+		}
+		void centrosdesalud(int op, int edad){
+			cout<<"----------centros de salud-----------"<<endl;
+		cout<<"1.incor"<<endl;
+		cout<<"2.foianinni"<<endl;
+		cout<<"3.caja petrolera"<<endl;
+		cout<<"4.niño jesus"<<endl;
+		cout<<"0.Salir"<<endl;
+		cout<<endl;
+		cout<<"¿Que opcion desea?"<<endl;
+		cin>>op;
+
+		switch(op)
+		{
+		case 1: cout<<"Direcciones: ";
+			cout<<"2do anillo avenida pirai";
+			cout<<"descripcion: ";
+			cout<<"es un centro de salud muy prestigiado"<<endl;
+			cout<<"horarios de atencion:"<<endl;
+			cout<<"24 horas";
+			break;
+			case 2: cout<<"Direcciones: ";
+			cout<<"avenida irala calle la paz";
+			cout<<"descripcion: ";
+			cout<<"es un centro de salud muy prestigiado"<<endl;
+			cout<<"horarios de atencion:"<<endl;
+			cout<<"24 horas";
+			break;
+			case 3: cout<<"Direcciones: ";
+			cout<<"avenida cañoto calle igavi";
+			cout<<"descripcion: ";
+			cout<<"es un centro de salud bastante completo "<<endl;
+			cout<<"horarios de atencion:"<<endl;
+			cout<<"24 horas";
+			break;
+			case 4: cout<<"Direcciones: ";
+			cout<<"avenida cañoto calle junin";
+			cout<<"descripcion: ";
+			cout<<"es un centro de salud muy importante y completo, tiene muy buenos medicos"<<endl;
+			cout<<"horarios de atencion:"<<endl;
+			cout<<"24 horas";
+			break;
+			case 0: cout<<"salir";
+			default: cout<<"error";
+
+		}
+		}
